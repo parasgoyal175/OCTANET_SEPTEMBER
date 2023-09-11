@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>tour and travel agency</title>
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -14,8 +14,9 @@
     <!-- header -->
     <header>
       <div id="menu-bar" class="fas fs bars"></div>
-     <a href="#" class="logo"><span>T</span>travel</a>
+     <!-- <a href="#" class="logo"><span>T</span>travel</a> -->
      <nav class="navbar">
+      <i class="fa-solid fa-earth-americas mainLogo"></i>
       <a href="#home">home</a>
       <a href="#book">book</a>
       <a href="#packages">packages</a>
@@ -23,12 +24,10 @@
       <a href="#gallery">gallery</a>
       <a href="#review">review</a>
       <a href="#contact">Contact</a>
+      
+      <i class = "fas fa-search" id=" search-btn"></i>
+      <i class = "fas fa-user" id= "login-btn"></i>
      </nav>
-     
-      <div class="icons">
-        <i class = "fas fa-search" id=" search-btn"></i>
-        <i class = "fas fa-search" id= "login-btn"></i>
-      </div>
 
       <form action="" class="search-bar-container">
         <input type="search" id="search-bar" placeholder="search here..">
@@ -63,27 +62,42 @@
     </section>
 
     <!-- footer -->
-    <footer>
-      <div class="container">
-          <div class="footer-content">
-              <div class="footer-logo">
-                <img src="tour-logo.png" alt="Travel Logo">
-                  <h3>Your affordable package</h3>
-              </div>
-              <div class="footer-contact">
-                  <h4>Contact Us</h4>
-                  <p>Email: info@yourhotel.com</p>
-                  <p>Phone: +1 (123) 456-7890</p>
-              </div>
-              <div class="footer-social">
-                  <h4>Follow Us</h4>
-                  <a href="#" class="social-icon">Facebook</a>
-                  <a href="#" class="social-icon">Twitter</a>
-                  <a href="#" class="social-icon">Instagram</a>
-              </div>
-          </div>
-      </div>
-    </footer>
+    <section class="footer">
+      <div class="box-container">
 
+        <div class="box">
+          <h3>about us</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad repellat nulla veritatis molestias dolor soluta error, perspiciatis numquam, hic quam dignissimos aperiam. Hic laboriosam cum non vel, vero incidunt consequatur?</p>
+        </div>
+        <div class="box">
+          <h3>branch locations</h3>
+          <a href="#">india</a>
+          <a href="#">USA</a>
+          <a href="#">japan</a>
+          <a href="#">france</a>
+        </div>
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#">home</a>
+          <a href="#">book</a>
+          <a href="#">packages</a>
+          <a href="#">services</a>
+          <a href="#">gallery</a>
+          <a href="#">review</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="box">
+          <h3>follow us</h3>
+          <a href="#">facebook</a>
+          <a href="#">instagram</a>
+          <a href="#">twitter</a>
+          <a href="#">linkdein</a>
+        </div>
+      </div>
+
+      <h1 class="credit">created by<span>Paras Goyal</span>|all rights reserved</h1>
+    </section>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   </body>
 </html>
